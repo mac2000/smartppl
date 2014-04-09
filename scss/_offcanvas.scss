@@ -1,0 +1,12 @@
+@import "../bower_components/foundation/scss/foundation/components/offcanvas";
+
+@media #{$small-only} {
+	.off-canvas-wrap {
+		height: 100%;
+		overflow-y: auto;
+
+		.inner-wrap {
+			min-height: 100%;
+		}
+	}
+}

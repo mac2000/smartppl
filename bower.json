@@ -1,0 +1,6 @@
+{
+	"name": "smartppl",
+	"dependencies": {
+		"foundation": "5.x"
+	}
+}

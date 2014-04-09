@@ -1,0 +1,40 @@
+<nav class="tab-bar show-for-small">
+  <section class="left-small">
+    <a class="left-off-canvas-toggle menu-icon" ><span></span></a>
+  </section>
+
+  <section class="middle tab-bar-section">
+    <h1 class="title">Smartppl</h1>
+  </section>
+
+  <section class="right-small">
+    <a class="right-off-canvas-toggle menu-icon" ><span></span></a>
+  </section>
+</nav>
+
+<nav class="top-bar hide-for-small" data-topbar>
+	<ul class="title-area">
+		<li class="name">
+			<h1><a href="#">Smartppl</a></h1>
+		</li>
+	</ul>
+	<section class="top-bar-section">
+		<ul class="right">
+			{% include 'partials/fake_menu.html' %}
+		</ul>
+	</section>
+</nav>
+
+<aside class="left-off-canvas-menu">
+	<ul class="off-canvas-list">
+		<li><label>Foundation</label></li>
+		{% include 'partials/fake_menu.html' %}
+	</ul>
+</aside>
+
+<aside class="right-off-canvas-menu">
+<ul class="off-canvas-list">
+	<li><label>Users</label></li>
+	{% include 'partials/fake_menu.html' %}
+</ul>
+</aside>

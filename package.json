@@ -1,0 +1,11 @@
+{
+	"devDependencies": {
+		"grunt": "x",
+		"grunt-contrib-uglify": "x",
+		"grunt-contrib-compass": "x",
+		"grunt-appcache": "x",
+		"grunt-jinja2": "x",
+		"grunt-exec": "x",
+		"grunt-contrib-watch": "x"
+	}
+}

@@ -1,0 +1,28 @@
+<!doctype html>
+<html class="no-js" lang="en" manifest="manifest.appcache">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Example</title>
+<link rel="stylesheet" href="css/styles.css" />
+<script src="js/modernizer.js"></script>
+</head>
+<body>
+<div class="off-canvas-wrap" data-offcanvas>
+<div class="inner-wrap">
+{% include 'partials/nav.html' %}
+<section class="main-section">
+{% block content %}{% endblock %}
+</section>
+<a class="exit-off-canvas"></a>
+</div>
+</div>
+{% block scripts %}
+<script src="js/scripts.js"></script>
+<script>
+	$(document).foundation();
+</script>
+{% endblock %}
+</body>
+</html>
