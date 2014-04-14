@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+
+{% block content %}
+<form>
+    <fieldset>
+        <div class="white">
+            <div class="row">
+                <div class="small-3 columns">
+                    <label>Email</label>
+                </div>
+                <div class="small-9 columns">
+                    <input type="text" placeholder="Enter your email...">
+                </div>
+            </div>
+        </div>
+        <div class="white">
+            <div class="row">
+                <div class="small-3 columns">
+                    <label>Password</label>
+                </div>
+                <div class="small-9 columns">
+                    <input type="text" placeholder="Enter your password...">
+                </div>
+            </div>
+        </div>
+    </fieldset>
+    <fieldset>
+        <div class="white">
+            <div class="row">
+                <div class="small-3 columns">
+                    <label>Name</label>
+                </div>
+                <div class="small-9 columns">
+                    <input type="text" placeholder="Enter your name...">
+                </div>
+            </div>
+        </div>
+        <div class="white">
+            <div class="row">
+                <div class="small-3 columns">
+                    <label>Birthdate</label>
+                </div>
+                <div class="small-9 columns">
+                    <input type="date" placeholder="Enter your birthdate...">
+                </div>
+            </div>
+        </div>
+        <div class="white">
+            <div class="row">
+                <div class="small-3 columns">
+                    <label>City</label>
+                </div>
+                <div class="small-9 columns">
+                    <select>
+                        <option>Select your city</option>
+                        <option>Kiev</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </fieldset>
+    <div class="row">
+        <div class="small-3 columns">
+            <label>Sex</label>
+        </div>
+        <div class="small-9 columns">
+            <a href="#" class="btn tiny">Male</a>
+            <a href="#">Female</a>
+            <input type="radio" name="sex" value="male" id="male"><label for="male">Male</label>
+            <input type="radio" name="sex" value="famale" id="famale"><label for="famale">Female</label>
+        </div>
+    </div>
+</form>
+<div class="row">
+    <p><a href="#" class="btn">Register</a></p>
+</div>
+{% endblock content %}

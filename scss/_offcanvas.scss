@@ -10,3 +10,23 @@
 		}
 	}
 }
+
+ul.off-canvas-list li label {
+    font-size:rem-calc(18);
+}
+
+ul.off-canvas-list li a:hover {
+    background:none;
+}
+
+
+.main-section {
+    padding: rem-calc(15);
+}
+
+.white {
+    background: #fff;
+    margin-left: rem-calc(-15);
+    margin-right: rem-calc(-15);
+    padding: rem-calc(15);
+}

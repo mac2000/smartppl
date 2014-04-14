@@ -1,0 +1,13 @@
+@import "../bower_components/foundation/scss/foundation/components/buttons";
+
+.btn {
+    @include button($bg: $primary-color, $radius: $global-radius, $full-width: true);
+    @include box-shadow(0 2px 0 scale-color($primary-color, $lightness: $button-function-factor));
+    @include text-shadow(0 2px 5px #031c60);
+    @include button-size($padding:$button-lrg);
+}
+
+.btn.tiny {
+    @include button($padding:0, $bg: $primary-color, $radius: $global-radius, $full-width: false);
+    @include button-size($padding:$button-tny);
+}

@@ -1,0 +1,48 @@
+@import "../bower_components/foundation/scss/foundation/components/forms";
+
+label {
+    text-transform: uppercase;
+    font-size: rem-calc(11);
+}
+
+input[type="checkbox"] + label,
+input[type="radio"] + label {
+    text-transform: none;
+    font-size: 1rem;
+}
+
+fieldset {
+    .white {
+        padding-top: rem-calc(5);
+        padding-bottom: rem-calc(5);
+        border-bottom:1px solid $body-bg;
+
+        input[type="text"],
+        input[type="password"],
+        input[type="date"],
+        input[type="datetime"],
+        input[type="datetime-local"],
+        input[type="month"],
+        input[type="week"],
+        input[type="email"],
+        input[type="number"],
+        input[type="search"],
+        input[type="tel"],
+        input[type="time"],
+        input[type="url"],
+        textarea,
+        select {
+            &, &:hover, &:focus {
+                border: none;
+                @include box-shadow(none);
+                margin: 0;
+                outline: none;
+                background:#fff;
+            }
+        }
+
+        label {
+            margin-top: rem-calc(12);
+        }
+    }
+}
