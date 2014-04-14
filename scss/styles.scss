@@ -42,7 +42,7 @@ $legacy-support-for-mozilla: false;
 //@import "../bower_components/foundation/scss/foundation/components/switch";
 //@import "../bower_components/foundation/scss/foundation/components/tables";
 //@import "../bower_components/foundation/scss/foundation/components/tabs";
-@import "../bower_components/foundation/scss/foundation/components/thumbs";
+@import "thumbs"; //@import "../bower_components/foundation/scss/foundation/components/thumbs";
 //@import "../bower_components/foundation/scss/foundation/components/tooltips";
 @import "../bower_components/foundation/scss/foundation/components/top-bar";
 @import "../bower_components/foundation/scss/foundation/components/type";

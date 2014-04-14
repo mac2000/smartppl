@@ -30,3 +30,10 @@ ul.off-canvas-list li a:hover {
     margin-right: rem-calc(-15);
     padding: rem-calc(15);
 }
+
+.white {
+    .columns.value {
+        min-height: 37px;
+        padding-top:.6rem;
+    }
+}

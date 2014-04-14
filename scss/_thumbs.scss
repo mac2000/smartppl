@@ -1,0 +1,9 @@
+@import "../bower_components/foundation/scss/foundation/components/thumbs";
+
+.th.ava {
+    border: 5px solid $primary-color;
+
+    &, & img {
+        border-radius: 50%;
+    }
+}
