@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block content %}
+<ul class="breadcrumbs text-center">
+    <li class="current"><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li class="unavailable"><a href="#">1</a></li>
+</ul>
+
+<div class="row text-center" style="padding:1rem 0">
+    <h3>Distance to run every day?</h3>
+</div>
+
+<fieldset>
+    <div class="row">
+        <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
+    </div>
+    <div class="row">
+        <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 1</label>
+    </div>
+    <div class="row">
+        <input id="checkbox3" type="checkbox"><label for="checkbox3">Checkbox 1</label>
+    </div>
+    <div class="row">
+        <input id="checkbox4" type="checkbox"><label for="checkbox4">Checkbox 1</label>
+    </div>
+</fieldset>
+<div class="row">
+    <p><a href="#" class="btn expand">Save</a></p>
+</div>
+{% endblock content %}
